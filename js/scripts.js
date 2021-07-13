@@ -1,3 +1,4 @@
+
 //scroll change bg header
 const mastheadMain = document.querySelector('.masthead');
 const nav = document.querySelector('nav');
@@ -12,4 +13,4 @@ window.addEventListener('scroll',function(){
        nav.style.background ="transparent";
    
    }
-})
+});
