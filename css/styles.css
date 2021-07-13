@@ -549,8 +549,10 @@ progress {
 }
 
 .img-fluid {
+  width: 300px;
+  height: 200px;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 .img-thumbnail {
@@ -8428,7 +8430,7 @@ nav ul li a:hover{
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  animation: slidemasthead 15s linear infinite 3s;
+  animation: slidemasthead 10s linear 2s infinite;
   backface-visibility: hidden;
 }
 @keyframes slidemasthead {
@@ -8485,6 +8487,10 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.testimonials .col-lg-4 {
+  display: inline-block;
+  float: none;
+}
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
