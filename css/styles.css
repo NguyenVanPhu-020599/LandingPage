@@ -3754,7 +3754,7 @@ nav .midnav ul{
  flex-wrap: wrap;
  position: absolute;
  left: 45%;
- transform: translateX(-50%);
+ transform: translateX(-40%);
 }
 
 nav .midnav ul li{
